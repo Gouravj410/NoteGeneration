@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Next.js build and dependencies
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Databases & local stores
+test.db
+backend/test.db
+backend/storage/
+*.log
+
+# Sensitive environment configs
+.env
+backend/.env
+frontend/.env
